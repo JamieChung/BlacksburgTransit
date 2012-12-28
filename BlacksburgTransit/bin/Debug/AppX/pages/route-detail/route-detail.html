@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>route-detail</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="route-detail.css" rel="stylesheet" />
+    <script src="route-detail.js"></script>
+</head>
+<body>
+    <div class="route_detail fragment" id="route-content">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Routes</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <span id="short-code-text" data-win-bind="innerText: shortCode"></span>
+            <div id="stop-template" data-win-control="WinJS.Binding.Template" style="display: none;">
+                <div class="stop-item">
+                    <span data-win-bind="innerText: code"></span>
+                    <h3 data-win-bind="innerText: name"></h3>
+                </div>
+            </div>
+            <div id="stop-list" data-win-control="WinJS.UI.ListView" data-win-options="{itemDataSource: StopDataSource.stopData.dataSource, itemTemplate: select('#stop-template'), layout: {type: WinJS.UI.ListLayout}}"></div>
+        </section>
+    </div>
+</body>
+</html>
