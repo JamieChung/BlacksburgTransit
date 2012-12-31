@@ -1,13 +1,13 @@
 C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bin\Debug\resources.pri
 C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bin\Debug\AppxManifest.xml
 C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bin\Debug\BlacksburgTransit.build.appxrecipe
-C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\priconfig.xml.intermediate
-C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\layout.resfiles.intermediate
-C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\resources.resfiles.intermediate
-C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\pri.resfiles.intermediate
 C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\priconfig.xml
 C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\layout.resfiles
 C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\resources.resfiles
 C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\pri.resfiles
 C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\LanguageQualifiers.txt
 C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\ProjectArchitectures.txt
+C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\priconfig.xml.intermediate
+C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\layout.resfiles.intermediate
+C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\resources.resfiles.intermediate
+C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bld\Debug\pri.resfiles.intermediate

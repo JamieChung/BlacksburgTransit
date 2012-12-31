@@ -17,6 +17,11 @@
     }
 }
 
+#arrival-list {
+    width: 90%;
+    height: 90%;
+}
+
 .arrival-item {
 	display: -ms-grid;
 	-ms-grid-columns: 100px auto;

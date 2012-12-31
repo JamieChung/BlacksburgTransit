@@ -48,6 +48,7 @@
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
     <PackageCertificateKeyFile>BlacksburgTransit_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -60,10 +61,16 @@
     <Content Include="images\storelogo.png" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
+    <Content Include="pages\calendar\calendar.css" />
+    <Content Include="pages\calendar\calendar.html" />
+    <Content Include="pages\calendar\calendar.js" />
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
     <Content Include="pages\home\home.js" />
     <Content Include="default.html" />
+    <Content Include="pages\map\map.css" />
+    <Content Include="pages\map\map.html" />
+    <Content Include="pages\map\map.js" />
     <Content Include="pages\route-detail\route-detail.css" />
     <Content Include="pages\route-detail\route-detail.html" />
     <Content Include="pages\route-detail\route-detail.js" />
@@ -73,6 +80,7 @@
     <None Include="BlacksburgTransit_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <SDKReference Include="Bing.Maps.JavaScript, Version=1.0" />
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />

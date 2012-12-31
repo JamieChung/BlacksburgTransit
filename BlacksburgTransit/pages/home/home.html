@@ -14,6 +14,7 @@
     <script src="/pages/home/home.js"></script>
 </head>
 <body>
+
     <!-- The content that will be loaded and displayed. -->
     <div class="fragment homepage">
         <header aria-label="Header content" role="banner">
@@ -23,6 +24,15 @@
             </h1>
         </header>
         <section aria-label="Main content" role="main">
+
+            <label id="progress" class="progressRingText">
+                <progress class="win-ring withText"></progress>Loading Bus Data...</label>
+
+            <div id="empty-list" style="display:none">
+                <h3>There are no busses currently running.</h3>
+                <br />
+                <button id="button-calendar">View Service Calendar</button>
+            </div>
 
             <div id="route-template" data-win-control="WinJS.Binding.Template" style="display: none;">
                 <div class="route-item">

@@ -1,29 +1,9 @@
 ﻿
 var routeData = new WinJS.Binding.List([]);
 
-var _fromRouteCode = {
-    TC: "Tom's Creek",
-    MSS: "Main Street South",
-    HWD: "Heathwood",
-    TTT: "Two Town Trolley",
-    MSN: "Main Street North",
-    HDG: "Harding Avenue",
-    HXP: "Hokie Express",
-};
 
 var _routeData = [];
 
-WinJS.Namespace.define("Global", {
-    fromRouteCode: function (code) {
-        if (this._fromRouteCode[code] != null) {
-            return this._fromRouteCode[code];
-        } else {
-            return code;
-        }
-    },
-
-    _fromRouteCode: _fromRouteCode,
-    });
 
 (function () {
     "use strict";
@@ -41,6 +21,16 @@ WinJS.Namespace.define("Global", {
                 function (request) {
                     var response = request.responseXML;
                     var routes = response.querySelectorAll("CurrentRoutes");
+
+                    document.getElementById("progress").style.display = 'none';
+
+                    if (routes.length == 0) {
+                        document.getElementById("empty-list").style.display = 'block';
+                        document.getElementById("button-calendar").addEventListener("click", function () {
+                            WinJS.Navigation.navigate("/pages/calendar/calendar.html");
+                        }, false);
+                    }
+
                     for (var i = 0; i < routes.length; i++) {
                         var route = routes[i];
                         var routeCode = route.querySelector("RouteShortName").textContent;

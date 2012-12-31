@@ -1,48 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-
-  <Identity
-    Name="af385161-d7ba-4557-95a9-0b5a704bf0d2"
-    Version="1.0.0.0"
-    Publisher="CN=Jamie Chung" />
-
+  <Identity Name="af385161-d7ba-4557-95a9-0b5a704bf0d2" Version="1.0.0.0" Publisher="CN=Jamie Chung" />
   <Properties>
     <DisplayName>BlacksburgTransit</DisplayName>
     <PublisherDisplayName>Jamie Chung</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.2.1</OSMinVersion>
     <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application 
-      Id="App"
-      StartPage="default.html">
-
-      <VisualElements
-        DisplayName="BlacksburgTransit"
-        Logo="images\logo.png"
-        SmallLogo="images\smalllogo.png"
-        Description="BlacksburgTransit"
-        ForegroundText="light"
-        BackgroundColor="#464646">
-
-        <DefaultTile ShowName="allLogos" />
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="BlacksburgTransit" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="BlacksburgTransit" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" ShortName="BT Finder" />
         <SplashScreen Image="images\splashscreen.png" />
-
       </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+      </Extensions>
     </Application>
   </Applications>
-
   <Capabilities>
     <Capability Name="internetClient" />
+    <DeviceCapability Name="location" />
   </Capabilities>
-
 </Package>
