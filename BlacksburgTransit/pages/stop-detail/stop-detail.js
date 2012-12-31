@@ -71,7 +71,8 @@ function get_time_difference (earlierDate, laterDate)
                         var dateDiff = get_time_difference(new Date(), date);
 
                         var friendly = Math.floor(parseInt(dateDiff.minutes) + (parseInt(dateDiff.hours) * 60));
-                        if ( friendly > 60 ) friendly = "60+";
+                        if (friendly > 60) friendly = "60+";
+                        else if (friendly == 0) friendly = "NOW";
 
                         var _a = new Arrival({
                             time: _time,
