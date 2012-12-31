@@ -5,7 +5,7 @@
     <WindowsUser>Jamie Chung</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>545A3DE0765F01C77DEA6F4789B828C8A4914E94839EF6D49418EA869A3BFAFA</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>C90EA1D81B86645060665298B9F14E09611174E4DD83F12B0BC416445EEAC549</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>af385161-d7ba-4557-95a9-0b5a704bf0d2_1.0.0.0_neutral__fkyq6k5v22vky</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>af385161-d7ba-4557-95a9-0b5a704bf0d2_fkyq6k5v22vky!App</RegisteredUserModeAppID>
     <RegisteredPackageID>af385161-d7ba-4557-95a9-0b5a704bf0d2</RegisteredPackageID>
@@ -16,21 +16,25 @@
     <AppXManifest Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-12-28T05:24:32.148</Modified>
+      <Modified>2012-12-30T22:05:22.702</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2012-12-28T05:00:25.895</Modified>
+      <Modified>2012-12-31T00:05:09.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2012-12-28T05:17:02.866</Modified>
+      <Modified>2012-12-31T00:05:29.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\route-detail\route-detail.css">
       <PackagePath>pages\route-detail\route-detail.css</PackagePath>
       <Modified>2012-12-28T06:44:36.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\stop-detail\stop-detail.css">
+      <PackagePath>pages\stop-detail\stop-detail.css</PackagePath>
+      <Modified>2012-12-30T22:39:36.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -62,27 +66,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2012-12-28T05:31:05.629</Modified>
+      <Modified>2012-12-30T23:13:39.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\route-detail\route-detail.js">
       <PackagePath>pages\route-detail\route-detail.js</PackagePath>
-      <Modified>2012-12-28T06:32:13.741</Modified>
+      <Modified>2012-12-30T23:20:57.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\stop-detail\stop-detail.js">
+      <PackagePath>pages\stop-detail\stop-detail.js</PackagePath>
+      <Modified>2012-12-30T23:22:11.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2012-12-28T06:47:24.149</Modified>
+      <Modified>2012-12-30T23:38:41.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2012-12-28T05:00:25.891</Modified>
+      <Modified>2012-12-31T00:00:35.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\route-detail\route-detail.html">
       <PackagePath>pages\route-detail\route-detail.html</PackagePath>
-      <Modified>2012-12-28T06:47:08.824</Modified>
+      <Modified>2012-12-31T00:04:02.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\stop-detail\stop-detail.html">
+      <PackagePath>pages\stop-detail\stop-detail.html</PackagePath>
+      <Modified>2012-12-30T23:22:30.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2012-12-28T05:24:32.059</Modified>
+      <Modified>2012-12-30T22:05:22.579</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

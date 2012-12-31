@@ -22,6 +22,9 @@
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\route-detail\route-detail.css">
       <PackagePath>pages\route-detail\route-detail.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\stop-detail\stop-detail.css">
+      <PackagePath>pages\stop-detail\stop-detail.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -50,6 +53,9 @@
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\route-detail\route-detail.js">
       <PackagePath>pages\route-detail\route-detail.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\stop-detail\stop-detail.js">
+      <PackagePath>pages\stop-detail\stop-detail.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
     </AppxPackagedFile>
@@ -58,6 +64,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\route-detail\route-detail.html">
       <PackagePath>pages\route-detail\route-detail.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\stop-detail\stop-detail.html">
+      <PackagePath>pages\stop-detail\stop-detail.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

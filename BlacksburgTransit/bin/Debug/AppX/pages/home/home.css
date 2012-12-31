@@ -17,25 +17,28 @@
     }
 }
 
+#route-list {
+    height: 90%;
+    width: 90%;
+}
+
 .route-item {
     display: -ms-grid;
-    -ms-grid-columns:100px auto;
-    -ms-grid-rows:auto;
+    -ms-grid-columns: 100px auto;
+    -ms-grid-rows: 50px;
 }
 
     .route-item > span {
-        -ms-grid-column:1;
-        width:100px;
-        height:100px;
-        background:white;
-        color:black;
-        display:block;
-        text-align:center;
-        font-size:28px;
-        font-weight:bold;
+        -ms-grid-column: 1;
+        width: 100px;
+        background: white;
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
     }
+
     .route-item > .route-detail {
-        -ms-grid-column:2;
-        width:500px;
-        margin-left:20px;
+        -ms-grid-column: 2;
+		margin-top:5px;
     }

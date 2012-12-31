@@ -19,24 +19,23 @@
         <header aria-label="Header content" role="banner">
             <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
             <h1 class="titlearea win-type-ellipsis">
-                <span class="pagetitle">Welcome to BlacksburgTransit!</span>
+                <span class="pagetitle">Blacksburg Transit Finder</span>
             </h1>
         </header>
         <section aria-label="Main content" role="main">
 
-            <div id="route-template" data-win-control="WinJS.Binding.Template" style="display: none">
-                <div class="route-item" onclick="WinJS.Navigation.navigate('/pages/route-detail/route-detail.html', {shortCode: code})" data-win-bind="code: code">
-                    <span data-win-bind="innerText: code"></span>
+            <div id="route-template" data-win-control="WinJS.Binding.Template" style="display: none;">
+                <div class="route-item">
+                    <span data-win-bind="innerText: code">TC</span>
                     <div class="route-detail">
-                        <h2 data-win-bind="innerText: name"></h2>
-                        <p>This route stop runnings in 15 minutes.</p>
+                        <h2 data-win-bind="innerText: name">Tom's Creek</h2>
                     </div>
                 </div>
             </div>
 
             <div id="route-list"
                 data-win-control="WinJS.UI.ListView"
-                data-win-options="{ itemDataSource: routeData.dataSource, itemTemplate: select('#route-template'), }">
+                data-win-options="{ itemDataSource: routeData.dataSource, itemTemplate: select('#route-template'), layout: {type: WinJS.UI.ListLayout}}">
             </div>
 
         </section>
