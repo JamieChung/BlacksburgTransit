@@ -17,7 +17,7 @@ var map, infobox;
                     try {
                         var mapOptions = {
                             credentials: "AmE-4nFpLUNg38zkzw7zKkYpyrGmnjU2mCUisdpLR5_OBNsU5_wrVh0LpsI3WG-x",
-                            center: new Microsoft.Maps.Location(37.231422, -80.413939),
+                            center: new Microsoft.Maps.Location(Global.DEFAULT_LAT, Global.DEFAULT_LON),
                             mapTypeId: Microsoft.Maps.MapTypeId.road,
                             zoom: 14,
                             showLogo: false

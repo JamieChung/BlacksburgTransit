@@ -42,6 +42,8 @@ WinJS.Namespace.define("Global", {
     },
 
     _stops: _stops,
+    DEFAULT_LAT: 37.231422, 
+    DEFAULT_LON: -80.413939,
 });
 
 (function () {

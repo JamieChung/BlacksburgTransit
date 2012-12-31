@@ -45,6 +45,8 @@ local.properties
 AppPackages/
 [Dd]ebug/
 [Rr]elease/
+bld/
+bin/
 
 *_i.c
 *_p.c

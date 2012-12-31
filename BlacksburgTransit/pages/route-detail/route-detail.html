@@ -16,18 +16,27 @@
     <div class="route_detail fragment" id="route-content">
         <header aria-label="Header content" role="banner">
             <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
-            <h1 class="titlearea win-type-ellipsis">
+            <h1 class="titlearea">
                 <span class="pagetitle"><span id="short-code-text"></span> Routes</span>
             </h1>
         </header>
         <section aria-label="Main content" role="main">
-            <div id="stop-template" data-win-control="WinJS.Binding.Template" style="display: none;">
-                <div class="stop-item">
-                    <span data-win-bind="innerText: code"></span>
-                    <h3 data-win-bind="innerText: name"></h3>
+            <div id="content">
+                <div id="stop-template" data-win-control="WinJS.Binding.Template" style="display: none;">
+                    <div class="stop-item">
+                        <span data-win-bind="innerText: code"></span>
+                        <h3 data-win-bind="innerText: name"></h3>
+                    </div>
+                </div>
+                <div id="stop-list" data-win-control="WinJS.UI.ListView" data-win-options="{
+                    itemDataSource: StopDataSource.stopData.dataSource, 
+                    itemTemplate: select('#stop-template'), 
+                    layout: {type: WinJS.UI.ListLayout}}">
                 </div>
             </div>
-            <div id="stop-list" data-win-control="WinJS.UI.ListView" data-win-options="{itemDataSource: StopDataSource.stopData.dataSource, itemTemplate: select('#stop-template'), layout: {type: WinJS.UI.ListLayout}}"></div>
+            <div id="map-container">
+                <div id="map"></div>
+            </div>
         </section>
     </div>
 </body>

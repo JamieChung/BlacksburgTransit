@@ -21,19 +21,6 @@
     position:relative;
 }
 
-@media screen and (-ms-view-state: snapped) {
-    .stop_detail section[role=main] {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-@media screen and (-ms-view-state: fullscreen-portrait) {
-    .stop_detail section[role=main] {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-}
 
 #arrival-list {
     width: 90%;
@@ -71,3 +58,29 @@
 	.arrival-detail p.notes{
 		font-style:italic;
 	}
+
+@media screen and (-ms-view-state: snapped) {
+    .stop_detail section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+        -ms-grid-rows:100%;
+        -ms-grid-columns:100%;
+    }
+    
+    #content {
+        -ms-grid-column:1;
+        -ms-grid-rows:1;
+        margin-top:20px;
+    }
+
+    #map-container {
+        display:none;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .stop_detail section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
