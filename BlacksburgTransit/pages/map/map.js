@@ -69,7 +69,6 @@ var map, infobox;
                     }
                 }
             });
-
         },
 
         unload: function () {

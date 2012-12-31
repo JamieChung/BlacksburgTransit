@@ -970,7 +970,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\stop-detail\stop-detail.css">
       <PackagePath>pages\stop-detail\stop-detail.css</PackagePath>
-      <Modified>2012-12-31T16:36:32.255</Modified>
+      <Modified>2012-12-31T19:57:17.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
@@ -994,7 +994,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2012-12-31T17:35:53.173</Modified>
+      <Modified>2012-12-31T19:58:17.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -1010,7 +1010,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\map\map.js">
       <PackagePath>pages\map\map.js</PackagePath>
-      <Modified>2012-12-31T17:46:34.864</Modified>
+      <Modified>2012-12-31T19:48:06.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\route-detail\route-detail.js">
       <PackagePath>pages\route-detail\route-detail.js</PackagePath>
@@ -1018,7 +1018,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\stop-detail\stop-detail.js">
       <PackagePath>pages\stop-detail\stop-detail.js</PackagePath>
-      <Modified>2012-12-31T16:38:09.215</Modified>
+      <Modified>2012-12-31T19:56:10.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\calendar\calendar.html">
       <PackagePath>pages\calendar\calendar.html</PackagePath>
@@ -1042,7 +1042,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\pages\stop-detail\stop-detail.html">
       <PackagePath>pages\stop-detail\stop-detail.html</PackagePath>
-      <Modified>2012-12-30T23:22:30.053</Modified>
+      <Modified>2012-12-31T19:54:56.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Jamie Chung\Documents\Windows 8 Development - JS\BlacksburgTransit\BlacksburgTransit\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

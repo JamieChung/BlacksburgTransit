@@ -2,7 +2,7 @@
 // http://go.microsoft.com/fwlink/?LinkId=232511
 
 WinJS.Namespace.define("StopDetail", { ArrivalList: [] });
-
+var map;
 function get_time_difference (earlierDate, laterDate)
 {
     var nTotalDiff = laterDate.getTime() - earlierDate.getTime();
@@ -86,6 +86,31 @@ function get_time_difference (earlierDate, laterDate)
                     _arrivalList.itemDataSource = new WinJS.Binding.List(_arrivals).dataSource;
                 }
             );
+
+            Microsoft.Maps.loadModule('Microsoft.Maps.Map', {
+                callback: function () {
+                    try {
+
+                        var stop = Global.getStop("stop_code", options.code);
+                        var point = new Microsoft.Maps.Location(stop.stop_lat, stop.stop_lon);
+                        var mapOptions = {
+                            credentials: "AmE-4nFpLUNg38zkzw7zKkYpyrGmnjU2mCUisdpLR5_OBNsU5_wrVh0LpsI3WG-x",
+                            center: point,
+                            mapTypeId: Microsoft.Maps.MapTypeId.road,
+                            zoom: 17,
+                            showLogo: false
+                        };
+
+                        map = new Microsoft.Maps.Map(document.getElementById("map"), mapOptions);
+                        var pin = new Microsoft.Maps.Pushpin(point);
+                        map.entities.push(pin);
+
+                    } catch (e) {
+                        var md = new Windows.UI.Popups.MessageDialog(e.message);
+                        md.showAsync();
+                    }
+                }
+            });
         },
 
         unload: function () {
